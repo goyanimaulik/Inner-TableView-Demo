@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D5AFCF5210C7DA400423029 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5AFCF3210C7DA400423029 /* HomeTableViewController.m */; };
+		4D5AFCF8210C7DD000423029 /* UIColor+AppColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5AFCF7210C7DD000423029 /* UIColor+AppColors.m */; };
+		4D5AFCFE210C7EDA00423029 /* ExpentableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5AFCFC210C7ED900423029 /* ExpentableViewController.m */; };
 		4DB28F19210B8EEF00B45524 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB28F18210B8EEF00B45524 /* MainTableViewCell.m */; };
 		4DE8BB6C210B8E06002F5699 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8BB6B210B8E06002F5699 /* AppDelegate.m */; };
 		4DE8BB6F210B8E06002F5699 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8BB6E210B8E06002F5699 /* ViewController.m */; };
@@ -17,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D5AFCF3210C7DA400423029 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		4D5AFCF4210C7DA400423029 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		4D5AFCF6210C7DD000423029 /* UIColor+AppColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AppColors.h"; sourceTree = "<group>"; };
+		4D5AFCF7210C7DD000423029 /* UIColor+AppColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AppColors.m"; sourceTree = "<group>"; };
+		4D5AFCFC210C7ED900423029 /* ExpentableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpentableViewController.m; sourceTree = "<group>"; };
+		4D5AFCFD210C7ED900423029 /* ExpentableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpentableViewController.h; sourceTree = "<group>"; };
 		4DB28F17210B8EEF00B45524 /* MainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
 		4DB28F18210B8EEF00B45524 /* MainTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
 		4DE8BB67210B8E06002F5699 /* Inner TableView Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inner TableView Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +51,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D5AFCFF210C811F00423029 /* Expentable TableView */ = {
+			isa = PBXGroup;
+			children = (
+				4D5AFCFD210C7ED900423029 /* ExpentableViewController.h */,
+				4D5AFCFC210C7ED900423029 /* ExpentableViewController.m */,
+				4D5AFCF6210C7DD000423029 /* UIColor+AppColors.h */,
+				4D5AFCF7210C7DD000423029 /* UIColor+AppColors.m */,
+			);
+			path = "Expentable TableView";
+			sourceTree = "<group>";
+		};
+		4D5AFD00210C813300423029 /* Inner TableView */ = {
+			isa = PBXGroup;
+			children = (
+				4DE8BB6D210B8E06002F5699 /* ViewController.h */,
+				4DE8BB6E210B8E06002F5699 /* ViewController.m */,
+				4DB28F17210B8EEF00B45524 /* MainTableViewCell.h */,
+				4DB28F18210B8EEF00B45524 /* MainTableViewCell.m */,
+			);
+			path = "Inner TableView";
+			sourceTree = "<group>";
+		};
 		4DE8BB5E210B8E06002F5699 = {
 			isa = PBXGroup;
 			children = (
@@ -63,10 +94,10 @@
 			children = (
 				4DE8BB6A210B8E06002F5699 /* AppDelegate.h */,
 				4DE8BB6B210B8E06002F5699 /* AppDelegate.m */,
-				4DE8BB6D210B8E06002F5699 /* ViewController.h */,
-				4DE8BB6E210B8E06002F5699 /* ViewController.m */,
-				4DB28F17210B8EEF00B45524 /* MainTableViewCell.h */,
-				4DB28F18210B8EEF00B45524 /* MainTableViewCell.m */,
+				4D5AFCF4210C7DA400423029 /* HomeTableViewController.h */,
+				4D5AFCF3210C7DA400423029 /* HomeTableViewController.m */,
+				4D5AFCFF210C811F00423029 /* Expentable TableView */,
+				4D5AFD00210C813300423029 /* Inner TableView */,
 				4DE8BB70210B8E06002F5699 /* Main.storyboard */,
 				4DE8BB73210B8E06002F5699 /* Assets.xcassets */,
 				4DE8BB75210B8E06002F5699 /* LaunchScreen.storyboard */,
@@ -147,7 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D5AFCFE210C7EDA00423029 /* ExpentableViewController.m in Sources */,
 				4DE8BB6F210B8E06002F5699 /* ViewController.m in Sources */,
+				4D5AFCF8210C7DD000423029 /* UIColor+AppColors.m in Sources */,
+				4D5AFCF5210C7DA400423029 /* HomeTableViewController.m in Sources */,
 				4DE8BB7A210B8E06002F5699 /* main.m in Sources */,
 				4DB28F19210B8EEF00B45524 /* MainTableViewCell.m in Sources */,
 				4DE8BB6C210B8E06002F5699 /* AppDelegate.m in Sources */,
